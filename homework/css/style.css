@@ -1,0 +1,145 @@
+/* Write your code here */
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 25px;
+    cursor: pointer;
+    border-radius: 15px;
+    
+  }
+  .flex-parent-element {
+    display: flex;
+    width: 100%;
+    height: 600px;   
+  }
+  
+  .flex-child-element {
+    flex: 1;
+    width: 200px;
+    height: 500px;  
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid gray;
+  }
+  
+  .flex-child-element:first-child {
+    margin-right: 100px;
+    width: 200px;
+    padding: 5px;
+    border: 1px solid gray;
+  }
+
+  .center {
+  text-align: center;
+
+  }
+  .center {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 10;
+}
+li {
+  padding: 10px 10px;
+  background-color: #EEEEEE;
+  border: 5px solid #FFFFFF;
+}
+
+
+
+.btn-styled {
+    font-size: 14px;
+    margin: 8px;
+    padding: 0 10px;
+    line-height: 2;
+}
+
+
+
+.edit{
+
+ background-color: #189AB4;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 25px;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 30%;
+    padding: 10px;
+
+}
+
+.delete{
+
+ background-color: #7B163E;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 25px;
+    cursor: pointer;
+    border-radius: 15px;
+    width: 30%;
+    padding: 10px;
+
+}
+
+.Savebutton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 15px;
+      font-weight: bold;
+      width: 30%;
+      right: 0;
+  top: 0;
+  margin: 0;
+    
+  }
+
+.input{
+ height: 44px;
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+
+  }
+  .text_input:focus {
+  outline: none;
+}
+
+.container {
+  position: relative;
+  border: 3px;
+  height: auto;
+  margin-bottom: auto;
+}
